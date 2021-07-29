@@ -127,5 +127,8 @@ $(function () {
       $submit.removeClass('-active')
     }
   })
+
+  //wow
+  new WOW().init();
 });
 
