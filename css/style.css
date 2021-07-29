@@ -289,13 +289,13 @@ img {
 
 @media screen and (max-width: 767px) {
   .open-pic {
-    background: url(../img/hamburger.png) top left/contain no-repeat;
+    background: url(https://smnm1989.github.io/test/img/hamburger.png) top left/contain no-repeat;
   }
 }
 
 @media screen and (max-width: 767px) {
   .close-pic {
-    background: url(../img/batsu.png) top left/cover;
+    background: url(https://smnm1989.github.io/test/img/batsu.png) top left/cover;
   }
 }
 
@@ -338,7 +338,7 @@ header.open {
 
 @media screen and (min-width: 768px) {
   .top {
-    background: url(/img/top.png) center center;
+    background: url(https://smnm1989.github.io/test/img/top.png) center center;
     background-size: cover;
     height: 648px;
   }
@@ -346,7 +346,7 @@ header.open {
 
 @media screen and (max-width: 767px) {
   .top {
-    background: url(/img/top.png) 22% center/cover;
+    background: url(https://smnm1989.github.io/test/img/top.png) 22% center/cover;
     height: 668px;
   }
 }
@@ -1024,7 +1024,7 @@ header.open {
 
 @media screen and (min-width: 768px) {
   .crp {
-    background: url(/img/comments3.png) no-repeat center/cover;
+    background: url(https://smnm1989.github.io/test/img/comments3.png) no-repeat center/cover;
     padding-top: 83%;
   }
 }
@@ -1101,7 +1101,7 @@ header.open {
 #  Q&A
 ============================================ */
 .qaas {
-  background: url(/img/qa-bg.png) no-repeat center/cover;
+  background: url(https://smnm1989.github.io/test/img/qa-bg.png) no-repeat center/cover;
 }
 
 @media screen and (max-width: 767px) {
@@ -1376,7 +1376,7 @@ header.open {
 #  contact
 ============================================ */
 .contact {
-  background: url(/img/contact-bg.png) no-repeat center/cover;
+  background: url(https://smnm1989.github.io/test/img/contact-bg.png) no-repeat center/cover;
   padding: 60px 0;
 }
 
@@ -1387,7 +1387,7 @@ header.open {
 }
 
 .contact-header {
-  background: url(/img/contact-head.png) no-repeat center/cover;
+  background: url(https://smnm1989.github.io/test/img/contact-head.png) no-repeat center/cover;
   padding: 70px 0 55px;
   border-radius: 12px 12px 0 0;
 }
