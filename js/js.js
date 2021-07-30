@@ -4,6 +4,7 @@ $(function () {
   $(document).ready(function () {
     $('.drawer').drawer();
   });
+
   $('.drawer').on('drawer.opened', function () {
     $('.drawer-hamburger-pic').removeClass('open-pic');
     $('.drawer-hamburger-pic').addClass('close-pic');
@@ -15,8 +16,13 @@ $(function () {
   });
   $('.drawer-hamburger-pic').click(function () {
     $('main, header').toggleClass('open');
-
   });
+
+  $('.drawer-menu-item').click(function(){
+    $('.drawer').drawer('close');
+    $('main, header').toggleClass('open');
+});
+
 
   //カルーセルスライダー
   const swiper = new Swiper('.swiper-container', {
